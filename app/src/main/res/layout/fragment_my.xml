@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+
+    tools:context=".Music">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300sp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="72sp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_music" />
+
+        <SeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="10sp"
+            android:layout_above="@id/controls"
+            android:layout_marginBottom="30sp"
+            android:background="@color/white"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:elevation="20sp" />
+
+        <LinearLayout
+            android:id="@+id/controls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="40sp"
+            android:background="#A1360598"
+            android:elevation="20sp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="15sp">
+
+            <ImageButton
+                android:id="@+id/btnPlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20sp"
+                android:background="@drawable/oval"
+                android:src="@drawable/ic_play" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20sp"
+                android:background="@drawable/oval"
+                android:src="@drawable/ic_skipback" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20sp"
+                android:background="@drawable/oval"
+                android:id="@+id/btnnext"
+                android:src="@drawable/ic_skipnext" />
+
+            <ImageButton
+                android:id="@+id/btnStop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/oval"
+                android:layout_marginRight="20sp"
+                android:src="@drawable/ic_stop" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/oval"
+                android:src="@drawable/ic_loop" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>
