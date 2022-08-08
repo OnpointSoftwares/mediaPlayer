@@ -14,7 +14,7 @@ class Adapter(fragmentActivity: FragmentActivity):FragmentStateAdapter(fragmentA
     override fun createFragment(position: Int): Fragment {
         return when(position)
         {
-            0->{Music()}
+            0->{ Music()}
             1->{ TwoFragment() }
             2->{ThreeFragment()}
             else -> {throw Resources.NotFoundException("Position not Found") }

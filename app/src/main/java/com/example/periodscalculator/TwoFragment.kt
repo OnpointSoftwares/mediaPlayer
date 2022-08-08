@@ -30,7 +30,7 @@ class TwoFragment : Fragment() {
         val view=inflater.inflate(R.layout.fragment_two,container,false)
         val listView: ListView = view.findViewById(R.id.listview)
         // Add a specific media item.
-        data class Video(val uri: Uri,
+       /* data class Video(val uri: Uri,
                          val name: String,
                          val duration: Int,
                          val size: Int
@@ -94,7 +94,7 @@ class TwoFragment : Fragment() {
                 // that represents the media file.
                 videoList += Video(contentUri, name, duration, size)
             }
-        }
+        }*/
         return inflater.inflate(R.layout.fragment_two, container, false)
     }
 }

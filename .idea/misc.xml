@@ -6,7 +6,7 @@
         <entry key="..\:/Users/vincent/AndroidStudioProjects/PeriodsCalculator/app/src/main/res/drawable/oval.xml" value="0.1" />
         <entry key="..\:/Users/vincent/AndroidStudioProjects/PeriodsCalculator/app/src/main/res/layout/activity_log.xml" value="0.25" />
         <entry key="..\:/Users/vincent/AndroidStudioProjects/PeriodsCalculator/app/src/main/res/layout/activity_login.xml" value="0.15" />
-        <entry key="..\:/Users/vincent/AndroidStudioProjects/PeriodsCalculator/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/vincent/AndroidStudioProjects/PeriodsCalculator/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/vincent/AndroidStudioProjects/PeriodsCalculator/app/src/main/res/layout/activity_main2.xml" value="0.25" />
         <entry key="..\:/Users/vincent/AndroidStudioProjects/PeriodsCalculator/app/src/main/res/layout/activity_profile.xml" value="0.25" />
         <entry key="..\:/Users/vincent/AndroidStudioProjects/PeriodsCalculator/app/src/main/res/layout/fragment_my.xml" value="0.33" />
@@ -22,5 +22,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
   </component>
 </project>
